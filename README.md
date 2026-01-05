@@ -2,7 +2,7 @@
 
 Este projeto consiste na implementação de uma Rede Neural Artificial do tipo MLP (Multilayer Perceptron) desenvolvida inteiramente em linguagem C.
 
-**Objetivo:** Compreender o funcionamento interno de uma rede neural, incluindo o processo de aprendizado de máquina (Machine Learning) e processamento de dados, utilizando apenas as bibliotecas padrão da linguagem (Standard C Library), sem o auxílio de frameworks externos como TensorFlow ou Keras.
+**Objetivo:** Compreender o funcionamento interno de uma rede neural, incluindo o processo de aprendizado de máquina (Machine Learning) e processamento de dados, utilizando apenas as bibliotecas padrão da linguagem, sem o auxílio de frameworks externos como TensorFlow ou Keras.
 
 ## Motivações do Projeto
 
@@ -10,8 +10,13 @@ Este projeto consiste na implementação de uma Rede Neural Artificial do tipo M
 * **Matemática:** Estudo prático de funções de ativação como Sigmoid e ReLu para introduzir não-linearidade à rede. E o treinamento via Gradiente Descendente onde a rede calcula o erro na saída e propaga esse erro de volta para ajustar os pesos (W) e os bias (b).
 * **Linguagem C:** Escolha baseada no alto desempenho e na necessidade de entender como o software interage com o hardware "baixo nível".
 
-## Exemplo
-**Código para exemplo :**
+## Exemplo de Uso
+
+Esse exemplo demonstra como criar uma rede neural de 4 camadas (Entrada, duas Camadas Ocultas e Saída) para simular a lógica XOR
+
+Nesta lógica, a saída deve ser verdadeira (próxima de 1) apenas quando as entradas forem diferentes entre si. Se as entradas forem iguais, a saída deve ser falsa (próxima de 0). É um problema clássico que exige que a rede aprenda padrões não-lineares.
+
+**Código :**
 
 ```c
 #include "mlp.h"
