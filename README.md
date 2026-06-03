@@ -135,7 +135,7 @@ Fim do processo
 # Curva de aprendizando
 Fiz um gráfico simples em R para demonstração da curva de aprendizando da rede neural
 
-![grafico](graficos/Rplot.png)
+![grafico](graficos/curva_apredizado.png)
 
 ## Funções
 
